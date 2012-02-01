@@ -1,5 +1,5 @@
-(ns debug.test.core
-  (:use [debug.core])
+(ns debug.test
+  (:use [debug])
   (:use [clojure.test]))
 
 (deftest replace-me ;; FIXME: write

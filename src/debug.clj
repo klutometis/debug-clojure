@@ -1,4 +1,4 @@
-(ns debug.core
+(ns debug
   (:use [clojure.pprint :only (pprint)]))
 
 (defmacro debug-map
