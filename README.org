@@ -1,1 +1,19 @@
-=debug= macro that prints expressions and their values.
+* Abstract
+
+  =debug= macro that prints expressions and their values.
+
+* Installation
+
+  See [[http://clojars.org/debug][Clojars]]; add the following to your =project.clj=:
+
+  #+BEGIN_SRC clojure
+    [debug "1.0.1-SNAPSHOT"]
+  #+END_SRC
+
+* Usage
+
+  In your namespace, put:
+
+  #+BEGIN_SRC clojure
+    (:use [debug])
+  #+END_SRC
